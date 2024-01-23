@@ -1,3 +1,7 @@
+//Navigator:wei lu
+//Driver: Dibyendu Brinto Bose
+//Editor:Vim
+//Language:Javascript
 function romanToInteger(roman) {
  //I worked with wei lu and I write the romantointeger. Here the map contains information regarding roman and its corrsponding integer value only for the most unique characters.
  //We have used VIM editor and the language we choose is javascript after discussion that we both are comfortable with this
