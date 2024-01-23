@@ -1,0 +1,10 @@
+/c/Users/brint/Desktop/Basics-Workshop
+APIs.md
+Bash.md
+Coding.md
+Git.md
+Install.md
+Project.md
+README.md
+path.txt
+resources/

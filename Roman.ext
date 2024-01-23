@@ -1,0 +1,33 @@
+function romanToInteger(roman) {
+ //I worked with wei lu and I write the romantointeger. Here the map contains information regarding roman and its corrsponding integer value only for the most unique characters.
+ //We have used VIM editor and the language we choose is javascript after discussion that we both are comfortable with this
+
+ const romanMap = new Map([
+        ['I', 1],
+        ['V', 5],
+        ['X', 10],
+        ['L', 50],
+        ['C', 100],
+        ['D', 500],
+        ['M', 1000]
+    ]);
+
+    let num = 0;
+    let prevValue = 0;
+    /*then here it iterates over the number and get corresponsding integer value. If a smaller numeral appears before a larger numeral, you subtract the smaller from the larger. Otherwise, I add the numerals.
+    */
+    for (let i = roman.length - 1; i >= 0; i--) {
+        const currentValue = romanMap.get(roman[i]);
+
+        if (currentValue < prevValue) {
+            num -= currentValue;
+        } else {
+            num += currentValue;
+        }
+
+        prevValue = currentValue;
+    }
+
+    return num;
+}
+
