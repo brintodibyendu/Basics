@@ -1,0 +1,5 @@
+1. Junio C Hamano
+2. 12 partial macthes. 
+3. 5 commits, 4 tree, 3 blob
+4. This commit works with the german translation of git and updates some functionalities
+5. Documentation/RelNotes/2.31.1.txt added and Documentation/config.txt modified
